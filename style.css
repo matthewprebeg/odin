@@ -1,0 +1,55 @@
+@font-face {
+  font-family: IMFell;
+  src: url(IMFellEnglish-Regular.ttf);
+}
+
+body {
+  font-family: 'IMFell', sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2em;
+  line-height: 1.6;
+  background-color: #ebebeb;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.header {
+  text-align: center;
+}
+
+.age-box {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 0 0.2em;
+}
+
+.gallery {
+  margin-top: 2em;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 3em;
+  font-size: 0.9em;
+  text-align: center;
+  color: #777;
+}
